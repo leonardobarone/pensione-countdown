@@ -1,0 +1,74 @@
+/* reset */
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+/* font */
+body {
+    font-family: 'Lato', sans-serif;
+
+}
+
+img {
+    height: 99.55vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.contenitore {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 25%;
+    left: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.days, .hours, .minutes, .seconds {
+    flex-basis: calc(100% / 4);
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0px 2px 4px black;
+    text-transform: uppercase;
+}
+
+.number {
+    font-size: 32px;
+    padding-bottom: 5px;
+}
+
+.pop-up {
+    display: none;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 24px;
+    top: 45%;
+    padding: 50px;
+    background-color: white;
+    width: 370px;
+    position: absolute;
+    left: 50%;
+    margin-left: -185px;
+}
+
+h1 {
+    width: 340px;
+    position: absolute;
+    left: 50%;
+    margin-left: -170px;
+    top: 10%;
+    color: white;
+    text-shadow: 0px 2px 4px black;
+
+}
